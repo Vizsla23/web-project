@@ -1,6 +1,6 @@
 <?php if (isset($_SESSION['userid'])) { ?>
 <?php	
-include_once("db_connect.php");
+include_once("belep.php");
 session_start();
 $error = '';
 if(isset($_POST["upload_image"]) && $_SESSION["userid"]) {
